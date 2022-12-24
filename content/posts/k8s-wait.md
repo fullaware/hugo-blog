@@ -1,7 +1,7 @@
 ---
 title: "K8s Waiting for Condition=Available=True"
 date: 2022-12-24T10:17:05-05:00
-draft: false
+tags : ["k8s"]
 ---
 
 While working with Ansible for standing up a vanilla Kubernetes 1.25.5 cluster I found myself separating the the initial bootstrapping of the cluster, which includes intalling the CNI `antrea` from the rest of the configuration (`metrics`,`metallb`,`contour`) due to waiting for `antrea` to become Ready.
