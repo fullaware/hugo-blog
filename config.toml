@@ -1,7 +1,7 @@
-baseURL = 'https://www.fullaware.net/'
+baseURL = 'https://www.fullaware.com/'
 title = 'Full Aware'
 theme = "fuji"
-publishDir = "../www.fullaware.net"
+publishDir = "../www.fullaware.com"
 
 hasCJKLanguage = true
 enableEmoji = true
