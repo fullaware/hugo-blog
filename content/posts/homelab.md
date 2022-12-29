@@ -1,6 +1,6 @@
 ---
 title: "Homelab"
-date: 2022-12-28
+date: 2022-12-29
 tags : ["homelab", "vmware"]
 ---
 ## Objective
@@ -28,11 +28,11 @@ To have a single server with enough power to run nested vSphere 8 and Tanzu Kube
 ## Software
 [VMware vSphere 8](https://www.vmug.com/membership/vmug-advantage-membership/) Licenses provided by VMUG Advantage membership
 
-## Configuration
+## Configuration of R720
 
 1. Install ESXi 8 to 500GB SSD on R720.  
     - YES I received the warning regarding unsupported CPU.  This has yet to keep me from using vSphere 8 on this server.  I did have to get creative with storage since my LSI2008 or PERC 310 aren't supported.  
-    - After installation I had 337.5GB for `Datastore1` which I renamed to `local_ssd500GB` and have so far managed to squeeze 8 VMs onto it thanks to thin provisioning.
+    - After installation I had 337.5GB for `Datastore1` which I renamed to `local_ssd500GB` and have so far managed to squeeze 9 VMs onto it thanks to thin provisioning.
 1. Install pi-hole on Ubuntu 22.04 LTS VM
     - [Configure pi-hole](https://www.youtube.com/watch?v=FnFtWsZ8IP0) with [recursive DNS](https://docs.pi-hole.net/guides/dns/unbound/) and add DNS entries for vCenter vm.
 1. Install vCenter
@@ -44,3 +44,5 @@ To have a single server with enough power to run nested vSphere 8 and Tanzu Kube
 1. Provision 4 new Ubuntu Server 22.04 VMs for Kubernetes
     - [Manual](https://www.linuxtechi.com/install-kubernetes-on-ubuntu-22-04/)
     - [Via Ansible - https://github.com/fullaware/k8s-iac#installing-kubernetes-2-installk8s](https://github.com/fullaware/k8s-iac#installing-kubernetes-2-installk8s)
+
+## Configuration of R740 coming soon
