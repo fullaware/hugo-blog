@@ -1,6 +1,6 @@
 ---
 title: "Homelab"
-date: 2022-12-23T09:03:20-08:00
+date: 2022-12-28
 tags : ["homelab", "vmware"]
 ---
 
@@ -35,4 +35,6 @@ tags : ["homelab", "vmware"]
 1. Install vCenter
 1. [Install TrueNAS Core](https://www.truenas.com/docs/solutions/integrations/vmware/deploytninvmware/) as a VM and add 150GB drive to be used as [iSCSI target](https://www.servethehome.com/building-a-lab-part-3-configuring-vmware-esxi-and-truenas-core/)
 1. [Install vSphere 8 as VM](https://www.infotechram.com/index.php/2022/09/17/how-to-install-esxi-server-8-vsphere-8-as-nested-vm/)
-
+1. Provision 4 new Ubuntu Server 22.04 VMs for Kubernetes
+    - [Manual](https://www.linuxtechi.com/install-kubernetes-on-ubuntu-22-04/)
+    - [Via Ansible - https://github.com/fullaware/k8s-iac#installing-kubernetes-2-installk8s](https://github.com/fullaware/k8s-iac#installing-kubernetes-2-installk8s)
