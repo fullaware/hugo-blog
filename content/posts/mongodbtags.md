@@ -2,7 +2,7 @@
 title: "Tagging Asteroids with MongoDB and Python"
 date: 2023-02-15
 tags : ["mongodb", "python"]
-draft : true
+draft : false
 ---
 # Objective
 Let's use MongoDB and Python to build an asteroid tagging engine that allows us to assign multiple elements to any asteroid then query based on those elements.  
