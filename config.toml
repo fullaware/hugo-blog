@@ -1,4 +1,4 @@
-baseURL = 'https://www.fullaware.com/'
+baseURL = 'http://www.fullaware.com/'
 title = 'Full Aware'
 theme = "fuji"
 publishDir = "../www.fullaware.com"
